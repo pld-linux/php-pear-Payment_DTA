@@ -24,7 +24,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 exchange information about money transactions with banks or online
 banking programs.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 %{_pearname} dostarcza funkcji do tworzenia plików DTA u¿ywanych w
