@@ -1,8 +1,9 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          Payment
-%define         _subclass       DTA
+%define		_class		Payment
+%define		_subclass	DTA
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - creates DTA files containing money transactions (Germany)
 Summary(pl):	%{_pearname} - tworzenie plików DTA zawieraj±cych transfery pieniê¿ne (Niemcy)
 Name:		php-pear-%{_pearname}
