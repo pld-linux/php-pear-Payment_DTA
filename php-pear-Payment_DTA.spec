@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - creates DTA files containing money transactions (Germany)
 Summary(pl):	%{_pearname} - tworzenie plików DTA zawieraj±cych transfery pieniê¿ne (Niemcy)
 Name:		php-pear-%{_pearname}
-Version:	0.71
+Version:	0.8
 Release:	1
 License:	BSD style
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	75feb1ec63a84c7cc61607773a5be198
+# Source0-md5:	d95badb708924107f5cda9decb24f888
 URL:		http://pear.php.net/package/%{_pearname}/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
