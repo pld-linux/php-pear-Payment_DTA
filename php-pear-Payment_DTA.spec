@@ -3,8 +3,8 @@
 %define         _subclass       DTA
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_pearname} - created DTA files containing money transactions (Germany)
-Summary(pl):	%{_pearname} - tworzy pliki DTA zawieraj±ce transfery pieniê¿ne (Niemcy)
+Summary:	%{_pearname} - creates DTA files containing money transactions (Germany)
+Summary(pl):	%{_pearname} - tworzenie plików DTA zawieraj±cych transfery pieniê¿ne (Niemcy)
 Name:		php-pear-%{_pearname}
 Version:	0.71
 Release:	1
@@ -27,7 +27,7 @@ This class has in PEAR status: %{_status}.
 
 %description -l pl
 %{_pearname} dostarcza funkcji do tworzenia plików DTA u¿ywanych w
-Niemczech do wymiany informacji dotycz±cych transakcji pienie¿nych.
+Niemczech do wymiany informacji dotycz±cych transakcji pieniê¿nych.
 
 Ta klasa ma w PEAR status: %{_status}.
 
