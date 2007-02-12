@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - creates DTA files containing money transactions (Germany)
-Summary(pl):	%{_pearname} - tworzenie plików DTA zawieraj±cych transfery pieniê¿ne (Niemcy)
+Summary(pl.UTF-8):   %{_pearname} - tworzenie plikÃ³w DTA zawierajÄ…cych transfery pieniÄ™Å¼ne (Niemcy)
 Name:		php-pear-%{_pearname}
 Version:	1.2.0
 Release:	3
@@ -28,9 +28,9 @@ banking programs.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-%{_pearname} dostarcza funkcji do tworzenia plików DTA u¿ywanych w
-Niemczech do wymiany informacji dotycz±cych transakcji pieniê¿nych.
+%description -l pl.UTF-8
+%{_pearname} dostarcza funkcji do tworzenia plikÃ³w DTA uÅ¼ywanych w
+Niemczech do wymiany informacji dotyczÄ…cych transakcji pieniÄ™Å¼nych.
 
 Ta klasa ma w PEAR status: %{_status}.
 
