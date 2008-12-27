@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - creates DTA files containing money transactions (Germany)
 Summary(pl.UTF-8):	%{_pearname} - tworzenie plików DTA zawierających transfery pieniężne (Niemcy)
 Name:		php-pear-%{_pearname}
-Version:	1.2.0
-Release:	4
+Version:	1.2.1
+Release:	1
 License:	BSD style
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	098c6b96c16d354de765434cc2278bd8
+# Source0-md5:	db34fa2c4ee017b8e579c7ab9b09bf66
 URL:		http://pear.php.net/package/Payment_DTA/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -34,6 +34,20 @@ Niemczech do wymiany informacji dotyczących transakcji pieniężnych.
 
 Ta klasa ma w PEAR status: %{_status}.
 
+%package tests
+Summary:	Tests for PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
+Group:		Development/Languages/PHP
+AutoReq:	no
+Requires:	%{name} = %{version}-%{release}
+AutoProv:	no
+
+%description tests
+Tests for PEAR::%{_pearname}.
+
+%description tests -l pl.UTF-8
+Testy dla PEAR::%{_pearname}.
+
 %prep
 %pear_package_setup
 
@@ -51,3 +65,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc docs/%{_pearname}/docs/*
 %{php_pear_dir}/.registry/*.reg
 %{php_pear_dir}/%{_class}/*.php
+
+%files tests
+%defattr(644,root,root,755)
+%{php_pear_dir}/tests/%{_pearname}
