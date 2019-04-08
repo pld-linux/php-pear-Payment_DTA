@@ -1,0 +1,33 @@
+--- Payment_DTA-1.4.3/usr/share/pear/Payment/DTA.php~   2019-04-08 08:05:56.745245162 +0200
++++ Payment_DTA-1.4.3/usr/share/pear/Payment/DTA.php    2019-04-08 08:05:56.748578669 +0200
+@@ -57,7 +57,7 @@
+ /**
+  * needs base class
+  */
+-require_once 'DTABase.php';
++require_once 'Payment/DTABase.php';
+
+ /**
+ * Determines the type of the DTA file:
+--- Payment_DTA-1.4.3/usr/share/pear/Payment/DTAZV.php~ 2019-04-08 08:05:56.768579712 +0200
++++ Payment_DTA-1.4.3/usr/share/pear/Payment/DTAZV.php  2019-04-08 08:05:56.771913219 +0200
+@@ -70,7 +70,7 @@
+ /**
+  * needs base class
+  */
+-require_once 'DTABase.php';
++require_once 'Payment/DTABase.php';
+
+ /**
+  * DTAZV class provides functions to create and handle with DTAZV
+--- Payment_DTA-1.4.3/usr/share/pear/tests/Payment_DTA/tests/DTABaseTest.php~   2019-04-08 08:05:56.778580233 +0200
++++ Payment_DTA-1.4.3/usr/share/pear/tests/Payment_DTA/tests/DTABaseTest.php    2019-04-08 08:05:56.781913741 +0200
+@@ -1,7 +1,7 @@
+ <?php
+
+ require_once dirname(__FILE__) . '/helper.inc';
+-require_once 'DTABase.php';
++require_once 'Payment/DTABase.php';
+
+ /*
+  * This file contains very few test cases -- just enough to test the few
