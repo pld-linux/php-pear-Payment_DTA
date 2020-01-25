@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		Payment
 %define		_subclass	DTA
 %define		_status		stable
